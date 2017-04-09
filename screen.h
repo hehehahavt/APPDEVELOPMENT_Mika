@@ -1,11 +1,10 @@
-//include function prototype for screen manipulation
-enum COLOR{BLACK=30, RED, GREEN, YELLOW, BLUE, MAGENTO, CYAN, WHITE};
+//include the functioprototype for screen manipulation
+enum COLOR{BLACK=30, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE};
 #define UNICODE
-#define BAR "\u2590" 	//unicode for a bar 
-
-//function prototype 
-void setFGcoloR(int fq);
+#define BAR "\u2590"
+//function prototypes
+void setFGcolor(int fg);
 void resetColors(void);
 void gotoXY(int row, int col);
-void clearscreen(void);
+void clearScreen(void);
 void displayBar(double rms, int col);
