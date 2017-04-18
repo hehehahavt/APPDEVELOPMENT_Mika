@@ -1,5 +1,5 @@
 /* This file contains wave header information as structure
- * it also contains neccessary constant definition of thi
+ * it also contains neccessary constant definition of this 
  */
 
 typedef struct {
